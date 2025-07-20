@@ -9,7 +9,7 @@ function getLoadingTime(size, networkSpeed) {
 }
 
 export default [{
-  name: 'size-limit-tiny-time',
+  name: '@size-limit/time',
   async step80(_, check) {
     let networkSpeed = (check.time && check.time.networkSpeed) || SLOW_3G
     let latency = (check.time && check.time.latency) || 0
