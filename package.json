@@ -1,0 +1,8 @@
+{
+    "name": "size-limit-tiny-time",
+    "version": "0.1.0",
+    "peerDependencies": {
+        "@size-limit/file": "*",
+        "size-limit": "*"
+    }
+}
