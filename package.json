@@ -1,6 +1,14 @@
 {
     "name": "size-limit-tiny-time",
     "version": "0.1.0",
+    "type": "module",
+    "license": "MIT",
+    "preferUnplugged": true,
+    "repository": "RDIL/size-limit-tiny-time",
+    "exports": {
+        ".": "./index.js",
+        "./package.json": "./package.json"
+    },
     "peerDependencies": {
         "@size-limit/file": "*",
         "size-limit": "*"
