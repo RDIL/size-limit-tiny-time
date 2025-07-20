@@ -1,4 +1,4 @@
-/* Extracted from @size-limit/file 11.2.0 */
+/* Extracted from @size-limit/time 11.2.0 */
 const SLOW_3G = 50 * 1024
 
 function getLoadingTime(size, networkSpeed) {
